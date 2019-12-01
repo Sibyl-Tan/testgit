@@ -1,0 +1,102 @@
+LOCUS       AB115415                3025 bp    mRNA    linear   INV 07-JUN-2014
+DEFINITION  Lehmannia marginata LimsGC 2b mRNA for soluble guanylyl cyclase 2
+            beta, partial cds.
+ACCESSION   AB115415
+VERSION     AB115415.1
+KEYWORDS    .
+SOURCE      Lehmannia marginata
+  ORGANISM  Lehmannia marginata
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Gastropoda;
+            Heterobranchia; Euthyneura; Panpulmonata; Eupulmonata;
+            Stylommatophora; Sigmurethra; Limacoidea; Limacidae; Lehmannia.
+REFERENCE   1
+  AUTHORS   Fujie,S., Yamamoto,T., Murakami,J., Hatakeyama,D., Shiga,H.,
+            Suzuki,N. and Ito,E.
+  TITLE     Nitric oxide synthase and soluble guanylyl cyclase underlying the
+            modulation of electrical oscillations in a central olfactory organ
+  JOURNAL   J. Neurobiol. 62 (1), 14-30 (2005)
+   PUBMED   15316917
+REFERENCE   2  (bases 1 to 3025)
+  AUTHORS   Fujie,S., Yamamoto,T., Murakami,J., Hatakeyama,D., Shiga,H.,
+            Suzuki,N. and Ito,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Contact:Dai Hatakeyama Hokkaido Univ.,
+            Dept. Biol. Sci., Grad. Sch. Sci.; North 10, West 8, Kita-ku,
+            Sapporo, Hokkaido 060-0810, Japan URL
+            :http://bio2.sci.hokudai.ac.jp/bio/chinou4/lymnaea-e.html
+FEATURES             Location/Qualifiers
+     source          1..3025
+                     /organism="Lehmannia marginata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:381128"
+                     /tissue_type="brain"
+                     /note="synonym: Limax marginatus"
+     gene            <1..3025
+                     /gene="LimsGC 2b"
+     CDS             <1..1223
+                     /gene="LimsGC 2b"
+                     /codon_start=3
+                     /product="soluble guanylyl cyclase 2 beta"
+                     /protein_id="BAC80153.1"
+                     /translation="LAEIDITKKLDETTAELKRTSRELEMEKQKTERLLYQMLPEKVA
+                     NQLKNGQAVEAEKFDQVTVLFSDIVTFTDIASACSPMDIVKMLNDMYNRFDKKTNEHG
+                     VYKVETIGDAYMVVCGVPEKTDTHAQPVASFALDMVEQAACVMSPATGKPLQIRVGIH
+                     TGPVVAGVVGVRMPRYCLFGDTVNTASRMESHGMPGRIHLSPSTFQALEGQGYTCKCR
+                     GETLIKGKGCMVTYFLLGDQNHTISEPEDEIRNIPVLKQVGVDESSRTAHESNKSFLE
+                     LCSHDNVFQGESTITMETVYTTSVKTEIRNSEADGYHQHECKTKREDETSTIHGHTHD
+                     IGHTHDIGHIHEISFSSTTQNPSSKNNSTDQKHSCSSNGQGQPCHNHPQSDPTSQNDA
+                     NKTCPSYSRTCHIY"
+ORIGIN      
+        1 ggctggcgga gatagacatc acgaagaaac tggatgaaac aacggcagaa ctgaagagaa
+       61 cttcccgaga actggagatg gagaaacaaa aaacagaacg gctactttat cagatgctac
+      121 cagaaaaagt ggctaaccag ctgaagaatg gccaggcagt ggaagcagag aagttcgatc
+      181 aagtgacagt tctgttcagc gacattgtca cattcaccga cattgcctct gcctgctcgc
+      241 cgatggacat tgtcaagatg ttgaatgaca tgtacaaccg ctttgacaaa aagaccaatg
+      301 agcacggcgt ttacaaggtg gagaccatag gtgatgccta catggttgtc tgtggtgtac
+      361 cggagaagac agacacccac gcacagcctg tagcgagctt tgccctcgac atggtggagc
+      421 aggcggcttg tgtgatgtcc ccggccactg ggaaaccgtt acagattcgg gtaggtattc
+      481 acaccggtcc tgtggttgcc ggcgtggtgg gagtgaggat gcccaggtac tgcctctttg
+      541 gggacactgt caacacggcc tcaaggatgg agagccacgg catgcctggc agaattcatc
+      601 tgagtccctc aacttttcaa gcattggaag gtcaaggcta cacgtgcaag tgtcggggag
+      661 aaacgctcat taaaggaaag ggctgcatgg tcacctactt tctgctgggg gatcaaaacc
+      721 acactatctc agaacctgaa gacgaaatcc gtaacattcc agtcttgaaa caagtaggcg
+      781 ttgacgaatc atcaaggact gcgcatgaaa gtaacaaatc tttcctggaa ttatgttccc
+      841 atgacaacgt gttccaaggg gagagcacta tcaccatgga aacagtgtac acgacctccg
+      901 ttaaaactga gattagaaac agcgaggctg atggatacca tcaacacgaa tgtaaaacta
+      961 aaagagaaga tgaaacttca accattcatg gacatactca tgatatcggc catactcatg
+     1021 atatcggcca tattcatgaa atttcatttt ctagcacaac ccaaaacccg tcgtcaaaga
+     1081 ataattccac tgatcagaaa cattcctgca gttcaaacgg gcaaggccaa ccgtgtcaca
+     1141 atcatccgca aagtgacccc acttcacaga atgacgccaa caaaacatgt ccatcctaca
+     1201 gtaggacttg tcatatttac taattaatat aaacaccagt ttactttcat gaaatattca
+     1261 ccatccacaa gttttacgaa acacagttta atgaccacca ttcggtacaa cttttccttt
+     1321 tccccattca taggtggaaa gtttagtgaa ctgtcgggaa atcgagattt ttctgtgagt
+     1381 taaatgtggc acattacatg tctctgcctt ttactgctac tcggagatct aaagcactgg
+     1441 atattttgac tatggccacg cgtttatgtt tctggaaaaa cacagacaaa aacttactga
+     1501 tagtggaaag tccatcaaca tccttcaatt taaaaaccac gatattttaa acgtttaata
+     1561 tgatgatatc tgcagttgta aataagatag tacataggga acttagggta attgccaata
+     1621 tattaatata aattgtaggc acatttaaga gtggtggaat ctgtctcacg cattcactcc
+     1681 cccatttctc tggtacccat atacatggtt ccgaaggagt atttcaggac acaaatgtca
+     1741 agaacagagt cacggcaagg atgccaccct gctttactcc tttttcaata tcaaatgctt
+     1801 aaaaattcaa cacttacacc atctgaatca cagcgggggt gtttactaaa ataaccaatt
+     1861 tcatcagaaa agacatgacc agataaggca gatttcacgg tttattcgtc tcaacttagc
+     1921 ttcttttatt ctggacaata aaccacctga cagtaaatgc agtcgcagat cattatcaca
+     1981 catttgttat caaatctgac aaacaacata tgagatggcc acaaggtaag aacaagtaat
+     2041 tcgaacaatt aacaattaag cacatattta tgtgtatttg ggtaacaatt tggttgaaag
+     2101 ttccaacatg actagaataa ctctttaaac acattgaatc gttatgcttt ttcattcata
+     2161 aaatatttgt ttaactgctc atataacttc agtggaagcc tttcagtttg ttgtattatg
+     2221 taacggtcga gtaaagtcta atctgtgcta attgtaatgt gaaatgagct ggtctgtgaa
+     2281 ttagcaaact gaagtgtgct ggtgtgtgat acagaaatgt gaagggtaca cattaattat
+     2341 taattaattg gtagtttatg tattagtagt atgatattta ctggtttagt tattagtgaa
+     2401 gtgaagtttg gtttaggtat tagtgaagtt aagtttgttt tatgcattag tgaagttaag
+     2461 tttgttttag gtgttagtga agttaagttt gttttatgta ttagtgaagt gaagtttgtt
+     2521 ttaggtatta gtgaagttaa gtttgtttta ggtattagta aactttggtt tgttttaggt
+     2581 attggtaaac tttggtttct tttaggtatt agtaaacttt ggtttgtttt aggtattagt
+     2641 aaactttggt ttgttttagg tattagtaaa ctttggtttg ttttaggtat tagtaaactt
+     2701 tggtttgttt taggtattgg taaactttgg tttctttaag gtattagtaa actttggttt
+     2761 gttttaggta ttggtaaact ttggtttctt taaggtatta gtaaactttg gtttgtttta
+     2821 ggtattaata aactttggtt tgttttagtt actagtgaag ttaagaaaac tggtaattta
+     2881 ttttgtgatg tgaagtttac taatttatgc atttagtaac gtgaagttta ctggttaatg
+     2941 tattgatgat gatacatatt tttaccggtt tagttattat tgatgtgata tttgcatgac
+     3001 ttaatatatt tgtatggctt aatgt
+//
+

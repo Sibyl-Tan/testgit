@@ -1,0 +1,95 @@
+LOCUS       AB115425                1861 bp    DNA     linear   PLN 28-JUL-2005
+DEFINITION  Pleurotus cornucopiae pcl-mg2 gene for lectin, complete cds.
+ACCESSION   AB115425
+VERSION     AB115425.1
+KEYWORDS    .
+SOURCE      Pleurotus cornucopiae (cornucopia mushroom)
+  ORGANISM  Pleurotus cornucopiae
+            Eukaryota; Fungi; Dikarya; Basidiomycota; Agaricomycotina;
+            Agaricomycetes; Agaricomycetidae; Agaricales; Pleurotaceae;
+            Pleurotus.
+REFERENCE   1
+  AUTHORS   Oguri,S., Ando,A. and Nagata,Y.
+  TITLE     A novel developmental stage-specific lectin of the basidiomycete
+            Pleurotus cornucopiae
+  JOURNAL   J. Bacteriol. 178 (19), 5692-5698 (1996)
+   PUBMED   8824614
+REFERENCE   2
+  AUTHORS   Sumisa,F., Ichijo,N., Yamaguchi,H., Nakatsumi,H., Ando,A.,
+            Iijima,N., Oguri,S., Uehara,K. and Nagata,Y.
+  TITLE     Molecular properties of mycelial aggregate-specific lectin of
+            Pleurotus cornucopiae
+  JOURNAL   J. Biosci. Bioeng. 98 (4), 257-262 (2004)
+   PUBMED   16233702
+REFERENCE   3
+  AUTHORS   Sumisa,F., Iijima,N., Ando,A., Shiga,M., Kondo,K., Amano,K. and
+            Nagata,Y.
+  TITLE     Properties of mycelial aggregate-specific lectin of Pleurotus
+            cornucopiae produced in Pichia pastoris
+  JOURNAL   Biosci. Biotechnol. Biochem. 68 (4), 959-960 (2004)
+   PUBMED   15118334
+REFERENCE   4  (bases 1 to 1861)
+  AUTHORS   Nagata,Y. and Sumisa,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Yoshiho Nagata, Chiba University, Faculty
+            of Horticulture, Department of Bioresources Chemistry, Lab. of
+            Molecular Cell Biology; Matsudo 648, Matsudo, Chiba 2718510, Japan
+            (E-mail:ynagata@faculty.chiba-u.jp, Tel:81-47-308-8869,
+            Fax:81-47-308-8869)
+FEATURES             Location/Qualifiers
+     source          1..1861
+                     /organism="Pleurotus cornucopiae"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 201046"
+                     /db_xref="taxon:5321"
+     gene            join(446..458,515..571,629..851,914..1393,1448..1796)
+                     /gene="pcl-mg2"
+     CDS             join(446..458,515..571,629..851,914..1393,1448..1796)
+                     /gene="pcl-mg2"
+                     /note="PCL-M2 (Lectin in mycelial aggregates of Pleurotus
+                     cornicopiae)"
+                     /codon_start=1
+                     /product="lectin"
+                     /protein_id="BAD16580.1"
+                     /translation="MKTLAWFVPLITAVLIGAVPNKQMCGDTADVTDTNPTCKGKMVP
+                     SAFEPAFLNISKYIWTGENTVPEADNPAGTRAFRKNITSACGKCATCATIVVAADDSS
+                     TVYVNGVAIGSGAGWITGQVYFAPLNPSSNLFAIAGVNNVARAALMATINIHYSDGTH
+                     ETFITDESWKTVRGAAPQGFQLPATSDSTWTFAMLQGFPQNSLWGNPALPPVLPLAQS
+                     KWIWTSANAATTAPAASNAFRKTIDDCTKVAVCATVLISADNHYKLYVNGQAVGSGDS
+                     FGRAEAYSIPKLHPTLNTFAIDAKNDEGPAGVIATIHITYRDGTNQTIVTDGSWKASQ
+                     TVPNGFQETFFDDSDWVAATVVGNYGIAPWGSALAIPPA"
+ORIGIN      
+        1 gaattcaagt tgagccgagc aggatctccc ttagcccccc cagcatttgc ctagcgttct
+       61 tcaactctac atgaaatgat gagctagaac gctttgcata ctattgatta cgagcttctg
+      121 agcgccgtgt aattcagaca tcggacctga gaatggtcta gaggtattgt ctacaagtct
+      181 atggcattca taggttctac cctagaggat tttttggtcc tagctctctg cccgtcgttc
+      241 taggcggcga atagccgcct tgatgtgcgt ggtgaatatt ccacaggagg atggaaccgc
+      301 agcgcattgg gagtttgtat gtttcacgtt atatgtagtc gcttgacggg agtataagaa
+      361 ggtaagtagt actcgcaagc ttagcagaac atccaaccag catctggagc tcattcgcct
+      421 gcaaaagtct acaccttgca acatcatgaa aactctaggt gaatgccacg ttacttcagt
+      481 ctctaccaag ctcatcggaa caaacgaact gtagcttggt ttgtgccctt gatcaccgcg
+      541 gtgctcatcg gtgcggtccc aaacaagcag agtaagttgc tttaaacgat gcaacaccgt
+      601 tttcttgtac ttacctttgt cctaacagtg tgtggtgaca ctgcagacgt gaccgacact
+      661 aatccgactt gcaaggggaa aatggttcca agcgcattcg agcctgcttt cctcaacatc
+      721 tccaagtaca tctggaccgg cgaaaatact gtccctgaag ctgacaatcc tgctggtact
+      781 cgcgcgttcc gcaagaacat cacgtctgcc tgtggaaagt gcgcgacgtg tgctaccatt
+      841 gtcgtggctg cgtgagtata tatcgattcc tgtgtattca tctgcaaaac taaatgcagg
+      901 ccttcgtatt cagggacgac tcaagtacgg tgtatgtcaa tggtgtagcg attggctctg
+      961 gagcgggttg gataactgga caagtttatt tcgcgccttt gaacccgtcg tcaaacctct
+     1021 ttgctatcgc aggcgtcaac aacgttgcgc gcgcagctct catggctacg attaatattc
+     1081 actactctga cggcacccat gaaactttca tcactgatga gagctggaag actgttcggg
+     1141 gtgcggctcc acaaggattc cagctacctg cgacatcaga cagtacctgg acattcgcta
+     1201 tgttgcaagg cttcccacag aattcattgt ggggaaaccc tgccttacca cctgtccttc
+     1261 cgctcgctca gtctaagtgg atttggacgt ccgctaatgc agctacaact gccccggcgg
+     1321 cgtcaaacgc gttccgcaag accattgatg actgtaccaa agtggccgtc tgcgccaccg
+     1381 ttctcatatc tgcgtaagac ctccgactag tatgacaact cactgctgac tttgcacccg
+     1441 tatttaggga taaccactac aagttgtatg tgaacggaca agctgttggc agtggcgaca
+     1501 gctttggaag ggcagaagcc tacagcatcc ccaaactcca tccaaccctc aacacgttcg
+     1561 ccatcgatgc gaaaaacgac gaaggcccag cgggtgtcat cgccaccatc cacatcacct
+     1621 accgtgatgg gaccaaccaa actattgtga ctgatggctc atggaaggcg tcgcagaccg
+     1681 ttccgaatgg attccaagag actttcttcg acgactcgga ctgggttgcg gcgactgtgg
+     1741 ttggaaatta tgggattgcg ccctggggct cggcattggc gattccacca gcctagttct
+     1801 tccacctgtg ggagtgcata agaacttgta gtgatgaatg cgtacttcat tttcttgttg
+     1861 c
+//
+

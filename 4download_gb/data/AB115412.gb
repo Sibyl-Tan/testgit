@@ -1,0 +1,58 @@
+LOCUS       AB115412                 628 bp    mRNA    linear   INV 07-JUN-2014
+DEFINITION  Lehmannia marginata LimNOS mRNA for nitric oxide synthase, partial
+            cds.
+ACCESSION   AB115412
+VERSION     AB115412.1
+KEYWORDS    .
+SOURCE      Lehmannia marginata
+  ORGANISM  Lehmannia marginata
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Gastropoda;
+            Heterobranchia; Euthyneura; Panpulmonata; Eupulmonata;
+            Stylommatophora; Sigmurethra; Limacoidea; Limacidae; Lehmannia.
+REFERENCE   1
+  AUTHORS   Fujie,S., Yamamoto,T., Murakami,J., Hatakeyama,D., Shiga,H.,
+            Suzuki,N. and Ito,E.
+  TITLE     Nitric oxide synthase and soluble guanylyl cyclase underlying the
+            modulation of electrical oscillations in a central olfactory organ
+  JOURNAL   J. Neurobiol. 62 (1), 14-30 (2005)
+   PUBMED   15316917
+REFERENCE   2  (bases 1 to 628)
+  AUTHORS   Fujie,S., Yamamoto,T., Murakami,J., Hatakeyama,D., Shiga,H.,
+            Suzuki,N. and Ito,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Contact:Dai Hatakeyama Hokkaido Univ.,
+            Dept. Biol. Sci., Grad. Sch. Sci.; North 10, West 8, Kita-ku,
+            Sapporo, Hokkaido 060-0810, Japan URL
+            :http://bio2.sci.hokudai.ac.jp/bio/chinou4/lymnaea-e.html
+FEATURES             Location/Qualifiers
+     source          1..628
+                     /organism="Lehmannia marginata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:381128"
+                     /tissue_type="brain"
+                     /note="synonym: Limax marginatus"
+     gene            <1..>628
+                     /gene="LimNOS"
+     CDS             <1..>628
+                     /gene="LimNOS"
+                     /codon_start=2
+                     /product="nitric oxide synthase"
+                     /protein_id="BAC80150.1"
+                     /translation="PVFHQEMLLYKLKPSYEYQDDAWKTHVWKKDRDKTKTSDKPKRK
+                     FGFKELARAVKFSAKLMGKALARRVKCVILYATETGKSERFANTLCEIFKHAFDAKVM
+                     CMSDCDVISLEHESLVLVVTSTFGNGDPPENGEAFAKSLYEMKSMESTNGDTNSRTHS
+                     SYVRMSISSDKEVKLDLDMTNPDSLAMITGPLGNVRFSVFALGSGTSRS"
+ORIGIN      
+        1 ccctgtgttc catcaggaga tgcttctgta caagctgaag ccttcctacg agtaccagga
+       61 cgatgcctgg aagactcacg tgtggaagaa agaccgggac aagacgaaga cgtcagacaa
+      121 acccaagagg aagtttggct tcaaagaact ggccagggct gtcaagttct ccgcaaagct
+      181 catggggaag gccttggcga gaagggttaa gtgtgtcatc ttgtacgcca ccgagacggg
+      241 caagtccgag agattcgcca acactctatg tgagatcttc aagcatgcgt ttgatgccaa
+      301 ggtaatgtgc atgtcagact gtgacgtcat atcgctggag cacgagtcct tagtgctggt
+      361 tgtgacaagc accttcggca acggggatcc acccgagaat ggggaggcct ttgccaaaag
+      421 cttgtacgag atgaaatcta tggaaagcac aaatggagac accaacagca ggacacactc
+      481 ctcgtacgtc cgcatgagca tctctagcga caaggaagtc aagctggacc ttgacatgac
+      541 caatccagac tccttggcca tgatcacggg gcccctgggc aatgtcagat tttccgtgtt
+      601 cgccttagga tccggtacct ctagatca
+//
+

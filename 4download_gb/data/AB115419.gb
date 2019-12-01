@@ -1,0 +1,75 @@
+LOCUS       AB115419                1676 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group srp54-2 mRNA for signal recognition
+            particle 54kDa subunit, complete cds.
+ACCESSION   AB115419
+VERSION     AB115419.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BOP
+            clade; Oryzoideae; Oryzeae; Oryzinae; Oryza; Oryza sativa.
+REFERENCE   1
+  AUTHORS   Shimada,T., Morita,S., Masumura,T. and Tanaka,K.
+  TITLE     Expression of two genes encoding SRP54, Signal Recognition Particle
+            54kDa subunit in rice tissue
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1676)
+  AUTHORS   Shimada,T., Shigeto,M., Masumura,T. and Tanaka,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Contact:Takehiro Masumura Kyoto Prefectural
+            University, Graduate School of Agriculture; Shimogamo, Sakyo-ku,
+            Kyoto, Kyoto 606-8522, Japan
+FEATURES             Location/Qualifiers
+     source          1..1676
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1676
+                     /gene="srp54-2"
+     CDS             116..1567
+                     /gene="srp54-2"
+                     /codon_start=1
+                     /product="signal recognition particle 54kDa subunit"
+                     /protein_id="BAC80140.1"
+                     /translation="MVLAQLGGSISRALAQMSNATVIDDKAFADCLHEIARALLQSDV
+                     QIRMVSDMRANIRRAVNLDALPAGTNKRRIIQQAVFAELCNMLDPGKPSFTPTKGKPS
+                     VVMFVGLQGSGKTTTCTKYAHYHQLKGFKPSLVCADTFRAGAFDQLKQNATKAKIPYY
+                     GSYMESDPVKIAVEGVERFRKEKSDLIIVDTSGRHKQEAALFEEMRQVAEATKPDLVI
+                     FVMDGSIGQAAFDQAQAFKQSASVGAVIVTKLDGHAKGGGALSAVAATKSPVVFIGTG
+                     EHMQDFEVFDVKPFVSRLLGMGDLSGLVNKIKDAMPADQQPELMQRLIEGTFTLRVFY
+                     ELFQNLLNMGPIGQVLSMIPGFRSELMPKGHDKESQAKIKRYMTIMDSMTNAELDSTN
+                     PKLMSESRIKRVARGSGRTMKDVTDMLEEYKRIAKVCSKLKKKLPKNMDRNVMNNKDT
+                     LNTINNLIPKQLLNQIGGVNPLQSVMKQMGLKT"
+ORIGIN      
+        1 gaaaactcca caaatctggg cagccgccgc gccacgagca cgagcacgac acgacacgtt
+       61 atccatcccg ccgccgaaga tcgccgcacg ccggagcgcc gatcgatcgg tggagatggt
+      121 gctcgcgcag ctgggcggga gcatctcccg cgcgctggcg cagatgagca acgcgacggt
+      181 gatcgacgac aaggcgttcg ccgactgcct ccacgagatc gcgcgcgcgc tcctgcagtc
+      241 cgacgtgcag atcaggatgg tctccgacat gcgcgccaac atccggaggg ccgtcaacct
+      301 cgacgccctc cccgccggca ccaacaagcg ccgcatcata cagcaggccg tcttcgcgga
+      361 gctctgcaac atgcttgatc cggggaagcc gtccttcacc cccaccaagg ggaagcccag
+      421 tgtggtcatg ttcgtcggct tgcaaggttc tgggaaaacc actacctgta ccaaatatgc
+      481 tcactatcat cagctgaagg gctttaaacc ttcattggtt tgtgctgata cattcagagc
+      541 tggtgccttt gatcagttaa aacagaatgc tacaaaggcc aagattcctt actatggaag
+      601 ctacatggaa tcagacccag tgaaaattgc tgttgagggt gtggagaggt tcaggaagga
+      661 gaagtctgat ctcatcattg ttgatactag cgggcgccac aagcaagagg ctgcactctt
+      721 cgaagaaatg cgtcaagttg cagaagcaac gaaacctgac cttgtgatat tcgtgatgga
+      781 tggtagcatt ggtcaggcag cgtttgatca ggcgcaagca tttaaacaga gtgcttctgt
+      841 tggtgctgtg attgttacga aattggatgg tcatgccaaa ggaggcggtg cacttagcgc
+      901 ggttgcagct acaaagagcc ctgttgtatt tattggaact ggagaacaca tgcaggattt
+      961 tgaggttttc gatgtgaaac catttgttag tcgtctgtta ggaatgggag acttgtctgg
+     1021 cttagtgaac aagatcaaag atgctatgcc tgctgatcaa caacctgagc ttatgcagag
+     1081 actgatagaa ggaaccttta ctctcagagt attctacgag ctgttccaga atcttcttaa
+     1141 catgggtcct attggacagg ttttatctat gatacctgga tttaggtctg aactgatgcc
+     1201 aaaaggacat gacaaggaaa gccaagcaaa gattaagcgg tacatgacta ttatggattc
+     1261 tatgacaaat gcagagcttg atagcacaaa cccaaagctg atgagtgaat cacgaattaa
+     1321 acgggtcgct cgaggatctg gcaggaccat gaaagatgtg accgacatgc tggaagagta
+     1381 caagagaatc gccaaggtgt gtagcaagtt gaagaagaag ttgcccaaga atatggacag
+     1441 gaatgttatg aacaacaagg acacgctgaa caccattaac aatctcatcc ctaagcaatt
+     1501 gttgaatcag atcggtggtg ttaatccgtt gcagagcgtc atgaagcaaa tgggcttaaa
+     1561 gacatgaacg aaatgttttg ggagcatgtg ctgatgttaa ttgatatttg caaatatata
+     1621 tgatgggctt gatgcaaaca ctcggctaac attgagggcc tggttttcag tgggaa
+//
+

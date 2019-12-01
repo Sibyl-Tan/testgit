@@ -1,0 +1,7 @@
+require("Biostrings")
+require("ape")
+library(seqinr)
+x=read.GenBank("AB115403",as.character = T)
+f=tempfile(fileext=".fa")
+write.fasta(x,"AB115403",f)
+readLines(f)

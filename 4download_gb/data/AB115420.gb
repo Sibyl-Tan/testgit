@@ -1,0 +1,92 @@
+LOCUS       AB115420                2385 bp    mRNA    linear   ROD 09-APR-2008
+DEFINITION  Rattus norvegicus gr mRNA for glucocorticoid receptor, complete
+            cds.
+ACCESSION   AB115420
+VERSION     AB115420.1
+KEYWORDS    .
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1
+  AUTHORS   Nishizawa,M., Ito,S. and Okumura,T.
+  TITLE     Expression of glucorticoid receptor mRNA in rat hepatocytes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2385)
+  AUTHORS   Nishizawa,M., Okumura,T. and Ito,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Contact:Mikio Nishizawa Ritsumeikan
+            University, College of Life Sciences, Department of Biomedical
+            Sciences; Nojihigashi 1-1-1, Kusatsu, Shiga 525-8577, Japan
+FEATURES             Location/Qualifiers
+     source          1..2385
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /cell_type="hepatocytes"
+                     /tissue_type="liver"
+     gene            1..2385
+                     /gene="gr"
+     CDS             1..2385
+                     /gene="gr"
+                     /codon_start=1
+                     /product="glucocorticoid receptor"
+                     /protein_id="BAF82011.1"
+                     /translation="MDSKESLAPPGRDEVPGSLLGQGRGSVMDFYKSLRGGATVKVSA
+                     SSPSVAAASQADSKQQRILLDFSKGSTSNVQQRQQQQQQQQQQQQQQQQQQPDLSKAV
+                     SLSMGLYMGETETKVMGNDLGYPQQGQLGLSSGETDFRLLEESIANLNRSTSVPENPK
+                     SSTSATGCATPTEKEFPKTHSDASSEQQNRKSQTGTNGGSVKSYPTDQSTFDLLKDLE
+                     FSAGSPGKDTNESPWRSDLLIDENLLSPLAGEDDPFLLEGDTNEDCKPLILPDTKPKI
+                     KDTGDTILSSPSSVALPQVKTEKDDFIELCTPGVIKQEKLGPVYCQASFSGTNIIGNK
+                     MSAISVHGVSTSGGQMYHYDMNTASLSQQQDQKPVFNVIPPIPVGSENWNRCQGSGED
+                     SLTSLGALNFPGRSVFSNGYSSPGMRPDVSSPPSSSSAATGPPPKLCLVCSDEASRCH
+                     YGVLTCGSCRVFFKRAVEGQHNYLYAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEA
+                     RKTKKKIKGIQQATAGVSQDTSENPNKTIVPAALPQLTPTLVSLLEVIEPEVLYAGYD
+                     SSVPDSAWRIMTTLNMLGGRQVIAAVKWPKAIPGFRNLHLDDQMTLLQYSWMFLMAFA
+                     LGWRSYRQSSGNLLCFAPDLIINEQRMSLPCMYDQCKHMLFVSSELQRLQVSYEEYLC
+                     MKTLLLLSSVPKEGLKSQELFDEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLD
+                     SMHEVVENLLTYCFQTFLDKTMSIEFPEMLAEIITNQIPKYSNGNIKKLLFHQK"
+ORIGIN      
+        1 atggactcca aagaatcctt agctccccct ggtagagacg aagtccctgg cagtttgctt
+       61 ggccagggga gggggagcgt aatggacttt tataaaagcc tgaggggagg agctacagtc
+      121 aaggtttctg catcttcgcc ctcagtggct gctgcttctc aggcagattc caagcagcag
+      181 aggattctcc ttgatttctc gaaaggctcc acaagcaatg tgcagcagcg acagcagcag
+      241 cagcagcagc agcagcagca gcagcagcag cagcagcagc agcagccaga cttatccaaa
+      301 gccgtttcac tgtccatggg gctgtatatg ggagagacag aaacaaaagt gatggggaat
+      361 gacttgggct acccacagca gggccaactt ggcctttcct ctggggaaac agactttcgg
+      421 cttctggaag aaagcattgc aaacctcaat aggtcgacca gcgttccgga gaaccccaag
+      481 agttcaacgt ctgcaactgg gtgtgctacc ccgacagaga aggagtttcc caaaactcac
+      541 tcggatgcat cttcagaaca gcaaaatcga aaaagccaga ccggcaccaa cggaggcagt
+      601 gtgaaatcgt atcccacaga ccaaagcacc tttgacctct tgaaggattt ggagttttcc
+      661 gctgggtccc caggtaaaga cacaaacgag agtccctgga gatcagacct gttgatagat
+      721 gaaaacttgc tttctccttt ggcgggagaa gatgatccat tccttctcga aggggacacg
+      781 aatgaggatt gtaagcctct tattttaccg gacactaaac ctaaaattaa ggatactgga
+      841 gatacaatct tatcaagtcc cagcagtgtg gcactgcccc aagtgaaaac agaaaaagat
+      901 gatttcattg aactttgcac ccccggggta attaagcaag agaaactggg cccagtttat
+      961 tgtcaggcaa gcttttctgg gacaaatata attggtaata aaatgtctgc catttctgtt
+     1021 catggtgtga gtacctctgg aggacagatg taccactatg acatgaatac agcatccctt
+     1081 tctcagcagc aggatcagaa gcctgttttt aatgtcattc caccaattcc tgttggttct
+     1141 gaaaactgga ataggtgcca aggctccgga gaggacagcc tgacttcctt gggggctctg
+     1201 aacttcccag gccggtcagt gttttctaat gggtactcaa gccctggaat gagaccagat
+     1261 gtaagctctc ctccatccag ctcgtcagca gccacgggac cacctcccaa gctctgcctg
+     1321 gtgtgctccg atgaagcttc aagatgtcat tacggggtgc tgacatgtgg aagctgcaga
+     1381 gtattcttta aaagagcagt ggaaggacag cacaattacc tttatgctgg aagaaacgat
+     1441 tgcatcattg ataaaattcg aaggaaaaac tgcccagcat gccgctatcg gaaatgtctt
+     1501 caggctggaa tgaaccttga agctcgaaaa acaaagaaaa aaatcaaagg gattcagcaa
+     1561 gccactgcag gagtctcaca agacacttcg gaaaatccta acaaaacaat agttcctgca
+     1621 gcattaccac agctcacccc taccttggtg tcactgctgg aggtgattga acccgaggtg
+     1681 ttgtatgcag gatatgatag ctctgttcca gattcagcat ggagaattat gaccacactc
+     1741 aacatgttag gtgggcgtca agtgattgca gcagtgaaat ggccaaaggc gataccaggc
+     1801 ttcagaaact tacacctgga tgaccaaatg accctgctac agtactcatg gatgtttctc
+     1861 atggcatttg ccctgggttg gagatcatac agacaatcaa gtggaaacct gctctgcttt
+     1921 gctcctgatc tgattattaa tgagcagaga atgtctctac cctgcatgta tgaccaatgt
+     1981 aaacacatgc tgtttgtctc ctctgaatta caaagattgc aggtatccta tgaagagtat
+     2041 ctctgtatga aaaccttact gcttctctcc tcagttccta aggaaggtct gaagagccaa
+     2101 gagttatttg atgagattcg aatgacttat atcaaagagc taggaaaagc catcgtcaaa
+     2161 agggaaggga actccagtca gaactggcaa cggttttacc aactgacaaa gcttctggac
+     2221 tccatgcatg aggtggttga gaatctcctt acctactgct tccagacatt tttggataag
+     2281 accatgagta ttgaattccc agagatgtta gctgaaatca tcactaatca gataccaaaa
+     2341 tattcaaatg gaaatatcaa aaagcttctg tttcatcaaa aatga
+//
+

@@ -1,0 +1,43 @@
+LOCUS       AB115416                 113 bp    mRNA    linear   PRI 26-JUL-2016
+DEFINITION  Homo sapiens GluR4c mRNA for alternative splicing isoform of
+            ionotrophic glutamate receptor subunit, partial cds.
+ACCESSION   AB115416
+VERSION     AB115416.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Kawahara,Y., Ito,K., Sun,H., Ito,M., Kanazawa,I. and Kwak,S.
+  TITLE     GluR4c, an alternative splicing isoform of GluR4, is abundantly
+            expressed in the adult human brain
+  JOURNAL   Brain Res. Mol. Brain Res. 127 (1-2), 150-155 (2004)
+   PUBMED   15306133
+REFERENCE   2  (bases 1 to 113)
+  AUTHORS   Kawahara,Y., Ito,K., Sun,H., Kanazawa,I. and Kwak,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-2003) Yukio Kawahara, University of Tokyo,
+            Graduate School of Medicine, Department of Neurology; 7-3-1 Hongo,
+            Bunkyo-ku, Tokyo 113-8655, Japan (E-mail:kawaharay-tky@umin.ac.jp,
+            Tel:81-3-5800-8672, Fax:81-3-5800-6548)
+FEATURES             Location/Qualifiers
+     source          1..113
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+     gene            <1..113
+                     /gene="GluR4c"
+     CDS             <1..111
+                     /gene="GluR4c"
+                     /codon_start=1
+                     /product="alternative splicing isoform of ionotrophic
+                     glutamate receptor subunit"
+                     /protein_id="BAD23796.1"
+                     /translation="VAKSAQTFNPTSSQNTQNLATYREGYNVYGTESIKI"
+ORIGIN      
+        1 gtggcaaaga gtgcacagac ttttaaccca acttcctcgc agaataccca gaatttagca
+       61 acctatagag aaggttacaa cgtatatgga accgaaagta ttaaaattta ggg
+//
+
