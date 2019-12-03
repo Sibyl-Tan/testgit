@@ -1,0 +1,9 @@
+Package: balala
+Title: preliminary sequence analysis 
+Version: 0.0.0.1000
+Authors@R: person("Sibyl Tan", email = "2420962424@qq.com", role = c("aut","cre"))
+Description: R package demo for preliminary sequence analysis including download genbank file, convert genbank file to fasta file, parse fasta file, calculate base frequency, simplified blast.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.1
