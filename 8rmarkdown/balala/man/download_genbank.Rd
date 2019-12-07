@@ -19,3 +19,6 @@ specified type of file(fasta or genbank or other)
 \description{
 Title Batch download genbank/fasta file from URL
 }
+\examples{
+download_genbank(accn,"gb","nucleotide")
+}

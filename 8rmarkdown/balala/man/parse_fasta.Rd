@@ -15,3 +15,6 @@ res :a table of each sequence's frequency
 \description{
 Title Parse fasta file(Calculate the base frequency)
 }
+\examples{
+pparse_fasta(lt)
+}

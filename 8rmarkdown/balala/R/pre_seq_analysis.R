@@ -7,7 +7,7 @@
 #' @return specified type of file(fasta or genbank or other)
 #' @export
 #'
-#' @examples
+#' @examples download_genbank(accn,"gb","nucleotide")
 download_genbank<-function(acc,file_type,db_type){
   for (i in 1:length(acc)){
     url=paste("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=",db_type,"&rettype=",file_type,"&retmode=text&id=",acc[i],sep="")
@@ -24,7 +24,7 @@ download_genbank<-function(acc,file_type,db_type){
 #' @return fasta file
 #' @export
 #'
-#' @examples
+#' @examples gb2fas("AB115403.gb")
 gb2fas<-function(path){
   x<-readLines(path)
   grep('^ACCESSION',x)->i
@@ -51,7 +51,7 @@ gb2fas<-function(path){
 #' @return sequence in fasta file and description
 #' @export
 #'
-#' @examples
+#' @examples read_fasta("flu_seq.fas")
 read_fasta<-function(path){
   x<-readLines(path)
   n=length(x)
@@ -104,7 +104,7 @@ base.freq<-function(inputseq){
 #' @return res :a table of each sequence's frequency
 #' @export
 #'
-#' @examples
+#' @examples pparse_fasta(lt)
 parse_fasta<-function(lst){
   res=t(sapply(lst$seq,base.freq,USE.NAMES = F))
   rownames(res)=lst$id
@@ -129,7 +129,7 @@ parse_fasta<-function(lst){
 #' @return Align object
 #' @export
 #'
-#' @examples
+#' @examples Blast("agctattgca","agtcattgca"),Blast(seq1,seq2)
 Blast<-function(seq1, seq2,score = list(match = 5, mismatch = -2, GAP = -6)){
   # simplified blast with scoring system(5,-2,-6)
   # ignoring affine penalty,the gap penalty is same.

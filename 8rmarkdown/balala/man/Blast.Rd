@@ -19,3 +19,6 @@ Align object
 \description{
 Title Simplified global alignment of 2 sequences
 }
+\examples{
+Blast("agctattgca","agtcattgca"),Blast(seq1,seq2)
+}

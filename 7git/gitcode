@@ -1,0 +1,60 @@
+Workspace：工作区
+discard the changes in working directory &&retreive the deleted file:git checkout --file
+create and switch to a new branch named "dev":git checkout -b dev 
+create remote "origin"'s branch "dev" into the local repository:git checkout -b dev origin/dev
+create a bracnch:git branch branch.name
+see the current branch:git branch
+branch switch:git checkout branch.name
+merge "dev"branch into "master"branch:git merge dev (in master)
+delete branch:git branch -d branch.name
+merge "dev"brnach with "FastForward" mode forbiding:git merge –no-ff -m “annotation” dev
+(can maintain the deleted branch information)
+see the commit history in graph:git log --graph --pretty=oneline --abbrev-commit
+save the workspace but not commit(dealing with bug):git stash
+check the saved workspace:git stash list
+retreive the content in stash:git stash apply + git stash drop == git stash pop
+
+Index / Stage：暂存区
+add file to Index:git add file
+delete the file from stage:git rm --cached filename
+
+Repository：仓库区（或本地仓库）
+commit file to repository at one time:git commit -m "annotation"
+see the status of file:git status
+check the difference in modified file:git diff "file"
+check the history of modifying and branch merging(display data in oneline):git log (-pretty=oneline)
+reset the version:git reset --hard HEAD^(back to n versions:n*'^')|git reset --hard HEAD~100(reset the former 100 version)  +cat
+get the version.num:git reflog
+reset the version by its version.num:git reset --hard version.num
+delete the file from repository:rm file (+ commit)
+
+Remote：远程仓库(通过ssh加密)
+ssh-keygen -t rsa -C "youremail@xx.com"
+log in github,open” settings”-SSH Keys page，then click“Add SSH Key”,fill in any title，in "Key" text box paste the content in id_rsa.pub
+coonect with remote:git remote add origin https://github.com/Sibyl-Tan/testgit.git
+push the content in loacal to the remote&(connect master branch):git push (-u) origin(default name of remote) master
+clone a local repository from remote "newtestgit" repository:git clone https://github.com/Sibyl-Tan/newtestgit.git
+check the remote:git remote|git remote -v(for details)
+connect local "dev" branch with remote "dev" branch:git branch --set-upstream dev origin/dev
+fetch the renew change:git pull
+come across merge conflict:cat file that caused the conflict & modified it same as "master" manually.
+
+#mkdir:your desired directory to create a local repository(+.git) :git init
+
+git config -global user.name ""
+git config -global user.email ""
+
+#create a new repository on the command line
+echo "# testgit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Sibyl-Tan/testgit.git
+git push -u origin master (remote named "origin" branch named "master")
+
+#push an existing repository from the command line
+git remote add origin https://github.com/Sibyl-Tan/testgit.git
+git push -u origin master
+
+#disconnect the local repository with the remote branch
+git remote remove origin

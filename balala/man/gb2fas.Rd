@@ -15,6 +15,3 @@ fasta file
 \description{
 Title File format conversion:genbank to fasta
 }
-\examples{
-gb2fas("AB115403.gb")
-}

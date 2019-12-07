@@ -15,3 +15,6 @@ sequence in fasta file and description
 \description{
 Title Read fasta file
 }
+\examples{
+read_fasta("flu_seq.fas")
+}

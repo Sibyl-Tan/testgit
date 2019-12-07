@@ -1,0 +1,69 @@
+---
+title: "Demonstrate the usages of balala package"
+author: "Sibyl Tan"
+date: "2019.12.3"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+##1.Install and load package
+```{r setup, include=TRUE,warning=FALSE,message=FALSE}
+library(devtools)
+
+#install or devtools::install_github("Sibyl-Tan/testgit/tree/master/balala")
+install("balala")      
+
+library(balala)        #load package
+```
+
+##_**If you don't know how to use these functions,try typing "?function_name" in console.**_
+
+##2.Download genbank file in batches
+```{r gbdata, include=TRUE}
+
+#use accession number to download 2 genbank files 
+acc=paste("AB115",403:404,sep="")
+
+#can also download fasta file if you change "gb" as "fasta"
+download_genbank(acc,"gb","nucleotide")
+
+#by running this, 2 genbank files already in your directory
+```
+
+##3.Convert the genbank file to fasta file
+```{r fastadata, include=TRUE}
+
+gb2fas("AB115403.gb")
+gb2fas("AB115404.gb")
+
+#by running this, 2 fasta files already in your directory
+```
+
+##4.Read fasta file and calculate the base frequency
+```{r parse, include=TRUE}
+
+lt<-read_fasta("AB115403.fas")
+parse_fasta(lt)
+
+#obtain a data.frame of which col.1 is accession number, col.2 is sequence. 
+#a table of sequences' base frequency will print.
+```
+
+##5.Simplified global alignment of 2 sequences
+```{r align, include=TRUE}
+
+#we should first read the fasta file 
+x<-read_fasta("AB115403.fas")$seq
+y<-read_fasta("AB115404.fas")$seq
+
+#for the convenience of display,we extract the former 9 characters to align
+seq1<-toupper(c(0,unlist(strsplit(x,""))))[1:10]
+seq2<-toupper(c(0,unlist(strsplit(y,""))))[1:10]
+Blast(seq1, seq2)
+
+
+```
+
+#_**Thank You for Listening**_
